@@ -16,8 +16,14 @@ https://github.com/sayedihashimi/mvpsummit2015
  Discussion
    https://github.com/aspnet/Scaffolding/issues/135
 
- Want to help create oss cmd line scaffolding?
+ Community project for cmd line scaffolding?
+   Goals
+     - File->New Project w/o yeoman/npm
+     - File->New Item w/o yeoman/npm
+     - File->New Scaffolded Item
    Email sayedha@microsoft.com
+   Similar to angular-cli/ember-cli
+
 
 
 
@@ -26,12 +32,17 @@ https://github.com/sayedihashimi/mvpsummit2015
    https://github.com/aspnet/Tooling/blob/master/specs/web-publish-ef-migrations.md
 
 
+
+
 ## Web Publish to Linux
  Deck
    https://github.com/aspnet/Tooling/blob/master/specs/publish-to-linux-from-vs.pdf
 
    - sftp or rsync?
    - should vs produce .sh files along with .ps1?
+
+
+
 
 ## Other features we will work on
  - IIS support for dev
@@ -43,12 +54,42 @@ https://github.com/sayedihashimi/mvpsummit2015
  - support for analyzers/code map/profiling/etc
 
 
+
+
 ## How to customize the publish process
 
  - Show how to add extra files during publish
  - Show how to customize publish to gen config file
  - Show how to replace publish and go to blob storage
 
+
+
+
 ## How to dev with multiple environments
- - 
+ - Show how to dev with multiple environments
+
+
+
+
+## Info on dependencies
+ - Show new features around dependencies
+
+
+
+
+More on scaffolding
+ dnx new <project-name> [options]
+ dnx new item <item-type> <file-name> [options]
+ dnx generate <type> [options]
+     dnx generate controller <file-name> [options]
+       dnx generate controller AdminController Empty
+       dnx generate controller ContactsController --dbcontext MyDbContext
+       dnx generate controller ContactsController --crud
+     dnx generate view <file-name> [options]
+       dnx generate view Empty 
+       dnx generate view Empty --model MyModel --dbcontext MyDbContext
+
+
+
+
 
