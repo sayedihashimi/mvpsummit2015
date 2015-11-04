@@ -1,0 +1,20 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "MvpConsoleApp Console Application",
+  "authors": [ "sayedha" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "Newtonsoft.Json": "6.0.7"
+  },
+
+  "commands": {
+    "MvpConsoleApp": "MvpConsoleApp"
+  },
+
+  "frameworks": {
+    "dnx451": { }
+  }
+}

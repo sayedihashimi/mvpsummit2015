@@ -1,0 +1,15 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "MvpClassLib01 Class Library",
+  "authors": [ "sayedha" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "frameworks": {
+    "dnx451": { }
+  },
+  "dependencies": {
+    "Newtonsoft.Json": "6.0.6"
+  }
+}
