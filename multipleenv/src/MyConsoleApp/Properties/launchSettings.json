@@ -1,0 +1,28 @@
+{
+  "profiles": {
+    "MyConsoleApp-dev": {
+      "commandName": "MyConsoleApp",
+      "environmentVariables": {
+        "Hosting:Environment": "Development",
+        "MVPEmail": "dev@dev.contoso.com",
+        "MVPTitle": "Contoso Dev"
+      }
+    },
+    "MyConsoleApp-prod": {
+      "commandName": "MyConsoleApp",
+      "environmentVariables": {
+        "Hosting:Environment": "Production",
+        "MVPEmail": "dev@contoso.com",
+        "MVPTitle": "Contoso"
+      }
+    },
+    "MyConsoleApp-staging": {
+      "commandName": "MyConsoleApp",
+      "environmentVariables": {
+        "Hosting:Environment": "Staging",
+        "MVPEmail": "dev@staging.contoso.com",
+        "MVPTitle": "Contoso Staging"
+      }
+    }
+  }
+}

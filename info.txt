@@ -1,0 +1,54 @@
+Sayed Ibrahim Hashimi
+SayedHa@Microsoft.com
+@SayedIHashimi
+https://github.com/sayedihashimi/mvpsummit2015
+
+
+
+
+## Scaffolding
+ - Focusing on VS scaffolding for now
+ - Cmd line scaffolding will be revisited later
+ 
+ Deck 
+   https://github.com/aspnet/Tooling/blob/master/specs/vs-scaffolding.pptx
+ 
+ Discussion
+   https://github.com/aspnet/Scaffolding/issues/135
+
+ Want to help create oss cmd line scaffolding?
+   Email sayedha@microsoft.com
+
+
+
+## Publishing EF Migration integration
+ Deck
+   https://github.com/aspnet/Tooling/blob/master/specs/web-publish-ef-migrations.md
+
+
+## Web Publish to Linux
+ Deck
+   https://github.com/aspnet/Tooling/blob/master/specs/publish-to-linux-from-vs.pdf
+
+   - sftp or rsync?
+   - should vs produce .sh files along with .ps1?
+
+## Other features we will work on
+ - IIS support for dev
+ - Package Search improvements
+ - .t4 support coming in update 1
+ - improve publish/startup times
+ - add all publish options
+ - better experience for user secrets
+ - support for analyzers/code map/profiling/etc
+
+
+## How to customize the publish process
+
+ - Show how to add extra files during publish
+ - Show how to customize publish to gen config file
+ - Show how to replace publish and go to blob storage
+
+## How to dev with multiple environments
+ - 
+
